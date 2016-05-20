@@ -4,11 +4,11 @@
 
 /* edge & firefox */
 @media (max-width: 750px) {
- .nav li {
+  .nav li {
     display: block;
     width: 100%;
   }
-   .navbar-collapse {
+  .navbar-collapse {
      height: 60px;
      max-height: 60px;
      overflow-y: scroll;
@@ -18,12 +18,12 @@
 
 /* chrome */ 
 @media (max-width: 684px) {
- .nav li {
+  .nav li {
     display: block;
     width: 100%;
    /* fixes nav so it displays vertically */
   }
-   .navbar-collapse {
+  .navbar-collapse {
      height: 60px;
      max-height: 60px;
      overflow-y: scroll;
@@ -67,18 +67,18 @@
   /* a:hover styles an element when you mouse over, this styles the background color of tabs blue */
 }
 .jumbotron {
-background-image: url("https://pixabay.com/static/uploads/photo/2015/09/02/12/27/city-918436_960_720.jpg"); 
- height:  100%;
- -webkit-background-size: cover;
- -moz-background-size: cover;
- -o-background-size: cover;
- background-size: cover;
+  background-image: url("https://pixabay.com/static/uploads/photo/2015/09/02/12/27/city-918436_960_720.jpg"); 
+  height:  100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
  /* makes sure background img covers whole screen in different browsers */
- background-repeat:no-repeat;
- background-position: center center;
- overflow: auto;
- margin-right: -20px;
- margin-left: -15px;
+  background-repeat:no-repeat;
+  background-position: center center;
+  overflow: auto;
+  margin-right: -20px;
+  margin-left: -15px;
 }
 .jumbotron h1 {
   color: #FFF;
@@ -101,7 +101,7 @@ background-image: url("https://pixabay.com/static/uploads/photo/2015/09/02/12/27
 .buttons {
   text-align: center;
   /* centers buttons in div, using text align */  
-   padding-bottom: 500px 
+  padding-bottom: 500px 
 }
 .buttons a:hover {
   color: #FFF; 
@@ -128,13 +128,13 @@ background-image: url("https://pixabay.com/static/uploads/photo/2015/09/02/12/27
   margin-left: -15px;
   margin-right: -20px;
   background-image: url("http://i1172.photobucket.com/albums/r576/SW1992/highway-828985_960_720_zpsxcpug5bo.jpg"); 
- height: 100%;
- -webkit-background-size: cover;
- -moz-background-size: cover;
- -o-background-size: cover;
- background-size: cover;
- background-repeat: no-repeat;
- background-position: center center;
+  height: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 h1 {
   color: #FFF;
@@ -169,11 +169,11 @@ p {
 .project-headers {
   color: #FFF; 
   border: 1px solid #000;
-margin-top: -5px;
+  margin-top: -5px;
   padding: 10px 10px 10px;
   background-image:url("http://www.publicdomainpictures.net/pictures/90000/nahled/blue-background-blur.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 #ProjectsHeader {
   margin-top: -10px;
@@ -186,7 +186,7 @@ footer p {
   float: left;
   margin-left: 43px;
   margin-top: -15px;
-   font-size: 1em;   
+  font-size: 1em;   
 }
 footer ul li {
   display: inline-block;
@@ -196,7 +196,7 @@ footer ul li {
   margin-left: -7px;
 }
 .fa {
-font-size: 1.5em;
+  font-size: 1.5em;
 }
 .codecademy {
   color: white;
@@ -208,7 +208,7 @@ font-size: 1.5em;
   width: 1.5em;
 }
 .github {
-    height: 1.5em;
+  height: 1.5em;
   width: 1.5em;
 }
 .thumbnail img:hover {
