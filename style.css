@@ -1,7 +1,6 @@
 @-ms-viewport {
     width: device-width;
 }
-
 /* edge & firefox */
 @media (max-width: 750px) {
   .nav li {
@@ -15,7 +14,6 @@
      
    }
 } 
-
 /* chrome */ 
 @media (max-width: 684px) {
   .nav li {
@@ -30,7 +28,6 @@
      /* fixes nav li's being cut off & unscrollable as screen shrinks */
    }
 } 
-
 .navbar-toggle {
   width: 50px;
   background-color: #000;
@@ -118,8 +115,7 @@
   color: #FFF;
   font-size: 1.5em;
 }
-
- body {
+body {
   font-family: 'Roboto', sans-serif;
   background-color: #000;
 } 
@@ -189,6 +185,7 @@ p {
 footer {
   margin-right: -15px;
   margin-left: -20px;
+  border-top: 1px solid #FFF;
 }
 footer p {
   float: left;
