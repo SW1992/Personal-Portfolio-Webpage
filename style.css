@@ -1,18 +1,17 @@
 @-ms-viewport {
-    width: device-width;
+  width: device-width;
 }
 /* edge & firefox */
 @media (max-width: 750px) {
-  .nav li {
+ .nav li {
     display: block;
     width: 100%;
   }
   .navbar-collapse {
-     height: 60px;
-     max-height: 60px;
-     overflow-y: scroll;
-     
-   }
+    height: 60px;
+    max-height: 60px;
+    overflow-y: scroll;     
+  }
 } 
 /* chrome */ 
 @media (max-width: 684px) {
@@ -22,11 +21,11 @@
    /* fixes nav so it displays vertically */
   }
   .navbar-collapse {
-     height: 60px;
-     max-height: 60px;
-     overflow-y: scroll;
-     /* fixes nav li's being cut off & unscrollable as screen shrinks */
-   }
+    height: 60px;
+    max-height: 60px;
+    overflow-y: scroll;
+    /* fixes nav li's being cut off & unscrollable as screen shrinks */
+  }
 } 
 .navbar-toggle {
   width: 50px;
@@ -64,18 +63,18 @@
   /* a:hover styles an element when you mouse over, this styles the background color of tabs blue */
 }
 .jumbotron {
-  background-image: url("http://i1172.photobucket.com/albums/r576/SW1992/Personal%20Portfolio%20Webpage/city-918436_960_720_zpsb0ssvyab.jpg"); 
-  height:  100%;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+ background-image: url("http://i1172.photobucket.com/albums/r576/SW1992/Personal%20Portfolio%20Webpage/city-918436_960_720_zpsb0ssvyab.jpg"); 
+ height: 100%;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
  /* makes sure background img covers whole screen in different browsers */
-  background-repeat:no-repeat;
-  background-position: center center;
-  overflow: auto;
-  margin-right: -20px;
-  margin-left: -15px;
+ background-repeat:no-repeat;
+ background-position: center center;
+ overflow: auto;
+ margin-right: -20px;
+ margin-left: -15px;
 }
 .jumbotron h1 {
   color: #FFF;
@@ -98,7 +97,7 @@
 .buttons {
   text-align: center;
   /* centers buttons in div, using text align */  
-  padding-bottom: 500px 
+   padding-bottom: 500px 
 }
 .buttons a:hover {
   color: #FFF; 
@@ -146,35 +145,7 @@ p {
   margin-left: -15px;
   margin-bottom: -40px;
 }
- #project-1 {
-  height: 100%;
-  width: 100%;
-} 
-#project-2 {
-  height: 100%;
-  width: 100%;
-}
-#project-3 {
-  height: 100%;
-  width: 100%;
-}
-#project-4 {
-  height: 100%;
-  width: 100%;
-}
-#project-5 {
-  height: 100%;
-  width: 100%;
-}
-#project-6 {
-  height: 100%;
-  width: 100%;
-}
-#project-7 {
-  height: 100%;
-  width: 100%;
-}
-#project-8 {
+.project-img {
   height: 100%;
   width: 100%;
 }
@@ -211,19 +182,11 @@ footer ul li {
 .fa {
   font-size: 1.5em;
 }
-.codecademy {
-  color: white;
-  height: 1.5em;
-  width: 1.5em;
-}
-.freecodecamp {
-  height: 1.5em;
-  width: 1.5em;
-}
-.github {
+.freecodecamp, .github, .twitter, .codecademy {
   height: 1.5em;
   width: 1.5em;
 }
 .thumbnail img:hover {
   opacity: 0.7;
 }
+
